@@ -12,6 +12,20 @@ const OnboardingScreen = () => {
           title: "Joyfulness",
           subtitle: "Enjoy Happy Moments with Family",
         },
+        {
+          backgroundColor: "#FFFFFF",
+          image: <Image source={require("../assets/images/onboarding2.svg")} />,
+          title: "Convenience",
+          subtitle:
+            "All your favorite foods in one place with online reservation feature",
+        },
+        {
+          backgroundColor: "#FFFFFF",
+          image: <Image source={require("../assets/images/onboarding3.svg")} />,
+          title: "Enjoy & Reviews",
+          subtitle:
+            "Enjoy all your great food, review and share your experience",
+        },
       ]}
     />
   );
